@@ -13,14 +13,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "material-design-icons-iconfont": "^6.7.0"
   },
   "devDependencies": {
     "@tailwindcss/container-queries": "0.1.1",
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/line-clamp": "0.4.4",
     "@tailwindcss/typography": "0.5.10",
-    "src": "file:src",
-    "vue": "3.3.8",
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "@vitejs/plugin-vue": "4.5.0",
@@ -34,9 +33,11 @@
     "eslint-plugin-storybook": "0.6.15",
     "eslint-plugin-vue": "9.19.2",
     "postcss": "8.4.32",
+    "src": "file:src",
     "tailwindcss": "3.3.5",
     "typescript": "5.2.2",
     "vite": "5.0.0",
+    "vue": "3.3.8",
     "vue-router": "4.2.5",
     "vue-tsc": "1.8.22"
   }

@@ -3,7 +3,7 @@ const defaultGuests = [
   { email: 'harlem.shake@baauer.com', tickets: 8 },
   { email: 'black.beatles@skrillex.com', tickets: 3 },
 ];
-const KEY = 'kpa-recruit-project.guests';
+const KEY = 'recruit-project.guests';
 
 export default class GuestRepository {
   load():Promise<GuestType[]> {

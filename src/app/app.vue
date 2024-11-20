@@ -1,28 +1,14 @@
 <template>
   <main
-    class="
-      h-full w-full
-      flex justify-start items-center flex-col
-      text-slate-700
-    "
+    class="h-screen w-4/5 flex mt-20 lg:mt-0 lg:justify-center items-center flex-col bg-cyan-950"
   >
     <nav-bar></nav-bar>
 
     <main-content></main-content>
-
-    <!-- optional: you can remove this readme -->
-    <read-me
-      class="
-        p-4 m-4
-        max-h-2/3 overflow-auto
-        border border-slate-100 rounded
-      "
-    ></read-me>
   </main>
 </template>
 
 <script setup lang="ts">
-import NavBar from 'src/components/nav-bar.vue';
-import MainContent from 'src/components/main-content.vue';
-import ReadMe from 'src/components/read-me.vue';
+import NavBar from "src/components/nav-bar.vue";
+import MainContent from "src/components/main-content.vue";
 </script>
