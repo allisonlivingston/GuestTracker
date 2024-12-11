@@ -8,7 +8,7 @@ const guests = ref<{ email: string; tickets: number }[]>([]);
 const isLoading = ref(true);
 const error = ref(null);
 const isModalOpen = ref(false);
-const modalData = ref<{ email: string; tickets: number }[]>([]);
+const modalData = ref<{ email: string; tickets: number }>({ email: '', tickets: 0 });
 const ticketCapacity = 20;
 const ticketsClaimed = ref(0);
 const ticketsRemaining = ref(0);
@@ -46,7 +46,7 @@ const handleEditGuest = (guest: any, index: number) => {
 const handleModalClose = () => {
   isModalOpen.value = false;
   currIndex.value = 0;
-  modalData.value = [];
+  modalData.value = { email: '', tickets: 0 };
 };
 
 const handleSave = (guest: any, index: number) => {
